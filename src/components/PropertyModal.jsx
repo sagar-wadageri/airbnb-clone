@@ -45,7 +45,7 @@ const PropertyModal = ({ property, onClose }) => {
             flexDirection: "column",
           }}
         >
-          {/* ❌ Close */}
+
           <button
             onClick={onClose}
             style={{
@@ -65,7 +65,7 @@ const PropertyModal = ({ property, onClose }) => {
             &times;
           </button>
 
-          {/* 🖼️ IMAGE SECTION */}
+
           <div
             style={{
               height: "280px",
@@ -78,7 +78,7 @@ const PropertyModal = ({ property, onClose }) => {
             <ImageCarousel images={property.images} />
           </div>
 
-          {/* 📄 CONTENT SECTION */}
+
           <div
             style={{
               padding: "16px",
@@ -86,7 +86,7 @@ const PropertyModal = ({ property, onClose }) => {
               background: "#fff",
             }}
           >
-            {/* TITLE */}
+
             <h2
               style={{
                 fontSize: "20px",
@@ -97,12 +97,12 @@ const PropertyModal = ({ property, onClose }) => {
               {property.title}
             </h2>
 
-            {/* LOCATION */}
+
             <p style={{ color: "#717171", marginBottom: "12px" }}>
               {property.location}
             </p>
 
-            {/* PRICE + RATING */}
+
             <div
               style={{
                 display: "flex",
@@ -130,7 +130,7 @@ const PropertyModal = ({ property, onClose }) => {
               </span>
             </div>
 
-            {/* DESCRIPTION */}
+
             <p
               style={{
                 fontSize: "14px",

@@ -7,7 +7,7 @@ const PropertyCard = ({ property, onClick }) => {
       whileHover={{
         scale: 1.03,
         boxShadow: "0px 10px 20px rgba(0,0,0,0.15)",
-        backgroundColor: "#ffe4e1",  // 🔹 new hover color
+        backgroundColor: "#ffe4e1",
       }}
       transition={{ duration: 0.3 }}
       className="card"
@@ -16,7 +16,7 @@ const PropertyCard = ({ property, onClick }) => {
         cursor: "pointer",
         borderRadius: "10px",
         overflow: "hidden",
-        background: "#fff",  // default color
+        background: "#fff",
         boxShadow: "0 2px 5px rgba(0,0,0,0.1)",
       }}
     >
