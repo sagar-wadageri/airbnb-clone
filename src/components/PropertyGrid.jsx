@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import PropertyCard from "./PropertyCard";
 import PropertyModal from "./PropertyModal";
-import { properties } from "../data/Properties";
+import { properties } from "../data/properties";
 
 const PropertyGrid = () => {
   const [selectedProperty, setSelectedProperty] = useState(null);
